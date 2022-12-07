@@ -1,0 +1,100 @@
+#grid {
+    width: 100%;
+    position: relative;
+}
+
+.grid1 {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    background-color: bisque;
+    left: 50px;
+    padding: 10px;
+}
+
+.grid2 {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    left: 550px;
+    bottom: 317px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.grid3 {
+    width: 950px;
+    height: 270px;
+    position: relative;
+    bottom: 295px;
+    background-color: bisque;
+    left: 50px;
+    padding: 10px;
+}
+
+.grid4 {
+    width: 400px;
+    height: 610px;
+    position: relative;
+    bottom: 925px;
+    left: 1050px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:700px) and (min-width:400px) {
+    .grid1 {
+
+        background-color:aquamarine;
+    }
+
+    .grid2 {
+        left: 50px;
+        top: 50px;
+        background-color:aquamarine;
+    }
+
+    .grid3 {
+        background-color:aquamarine;
+        top: 750px;
+        width: 450px;
+    }
+
+    .grid4 {
+        left: 50px;
+        top: -200px;
+        width: 450px;
+        background-color:aquamarine;
+    }
+
+
+
+
+
+}
